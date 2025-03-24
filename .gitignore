@@ -1,4 +1,35 @@
-node_modules
-dist
-.port
+# Node modules
+node_modules/
+
+# Build directories
+browser-tools-mcp/dist/
+browser-tools-server/dist/
+browser-tools-server/dist-electron/
+browser-tools-mcp/dist-electron/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
 .DS_Store
+Thumbs.db
